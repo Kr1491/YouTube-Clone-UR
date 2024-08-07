@@ -1,0 +1,122 @@
+
+.header{
+  padding-top: 2px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(229, 228, 228);
+  border-bottom-style: solid;
+  align-items: center;
+  z-index: 100;
+}
+
+.left-section{
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.middle-section{
+  margin-left: 70px;
+  margin-right: 35px;
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+
+}
+.notification{
+  position: relative;
+  padding-right: 6px;
+}
+.noti{
+  position: absolute;
+  background-color: rgb(175, 0, 0);
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 50px;
+  font-size: 10px;
+  color: white;
+  top: 0;
+  right: 0;
+}
+
+.search-button{
+  height: 40px;
+  width: 60px;
+  background-color: rgba(247,247,247,255);
+  border-width: 1px;
+  border-color: rgb(214, 214, 214);
+  border-style: solid;
+}
+
+.search-icon{
+  height: 25px;
+  width: 50px;
+  margin-top: 4px;
+}
+
+.vs-button{
+  width: 50px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  margin-left: 10px;
+  background-color: rgba(247,247,247,255);
+}
+
+.vs-icon{
+  background-color: rgba(247,247,247,255);
+  height: 25px;
+}
+
+.searchbar{
+  width: 100%;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(214, 214, 214);
+  box-shadow: inset 1px 2px 3px 
+            rgba(0, 0, 0, 0.05);
+}
+.searchbar::placeholder{
+  font-size: 16px;
+  color: grey;
+}
+.right-section{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.hm-icon{
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.yt-icon{
+  height: 20px;
+}
+
+.right-icon{
+  width: 25px;
+}
+
+.my-channel{
+  height: 32px;
+}
